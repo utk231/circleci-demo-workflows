@@ -1,5 +1,7 @@
 version: 2.0
-
+dependencies:
+  pre:
+   - gem install bundler -v 1.14.5
 jobs:
   "ruby-2.2":
     docker:
